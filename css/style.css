@@ -149,6 +149,11 @@ ul {
 .card__img {
   width: 80%;
   height: 15rem;
+  transition: transform 0.3s ease;
+}
+
+.card__img:hover {
+  transform: scale(1.1);
 }
 
 #trending {
